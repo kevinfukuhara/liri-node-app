@@ -37,9 +37,12 @@ function main(userapi, searchTerm) {
 // Define functions for API Calls
 function bandLookup(search) {
     // Use axios package to call to BandsInTown API.
+    // console.log(search);
+    var bandUrl = "https://rest.bandsintown.com/artists/" + search + "/events?app_id=codingbootcamp";
+    // console.log(bandUrl);
     axios({
         method: 'get',
-        url: "https://rest.bandsintown.com/artists/" + search + "/events?app_id=codingbootcamp",
+        url: bandUrl,
         responseType: 'json'
     })
         .then(function (response) {
@@ -90,16 +93,12 @@ function musicLookup(search) {
     // Use spotify package to query for response
     if (search === "") {
         search = "artist:Ace Of Base"
-        // artist = "The Ace"
     }
 
     spotify
         .request('https://api.spotify.com/v1/search?q=' + search + '&type=track&limit=5')
         .then(function (data) {
             var track = data.tracks.items[0];
-            // console.log(data.tracks.items[0]);
-            // for (var i = 0; i < data.tracks.items.length; i++) {
-            // var track = data.tracks.items[i];
             console.log(
                 "-------------------------------------------------------------------" +
                 // "\nArtist: " + track.artists[i].name +
@@ -129,8 +128,11 @@ function doWhat() {
         // Then split it by commas (to make it more readable)
         var dataArr = data.split(",");
 
+        var dataSearch = dataArr[1].substring(1, dataArr[1].length-1);
+        // console.log(dataSearch);
+
         // Run the Liri function wiht the arguments from text file
-        main(dataArr[0], dataArr[1]);
+        main(dataArr[0], dataSearch);
     });
 }
 

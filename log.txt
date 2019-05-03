@@ -13,3 +13,24 @@ spotify-this-song A Whole New World @ Wednesday, May 1, 2019 12:51 PM
 do-what-it-says  @ Wednesday, May 1, 2019 12:51 PM
 spotify-this-song "How Far I'll Go"
  @ Wednesday, May 1, 2019 12:51 PM
+do-what-it-says  @ Friday, May 3, 2019 3:13 PM
+concert-this "Taylor Swift" @ Friday, May 3, 2019 3:13 PM
+do-what-it-says  @ Friday, May 3, 2019 3:13 PM
+concert-this "Taylor Swift" @ Friday, May 3, 2019 3:13 PM
+concert-this taylor swift @ Friday, May 3, 2019 3:14 PM
+concert-this taylor swift @ Friday, May 3, 2019 3:14 PM
+concert-this taylor swift @ Friday, May 3, 2019 3:19 PM
+do-what-it-says  @ Friday, May 3, 2019 3:19 PM
+concert-this "Taylor Swift" @ Friday, May 3, 2019 3:19 PM
+do-what-it-says  @ Friday, May 3, 2019 3:20 PM
+concert-this "Taylor Swift" @ Friday, May 3, 2019 3:20 PM
+concert-this taylor swift @ Friday, May 3, 2019 3:20 PM
+concert-this "taylor swift" @ Friday, May 3, 2019 3:23 PM
+do-what-it-says  @ Friday, May 3, 2019 3:24 PM
+concert-this "Taylor Swift" @ Friday, May 3, 2019 3:24 PM
+do-what-it-says  @ Friday, May 3, 2019 3:27 PM
+concert-this "Taylor Swift" @ Friday, May 3, 2019 3:27 PM
+do-what-it-says  @ Friday, May 3, 2019 3:28 PM
+concert-this Taylor Swift @ Friday, May 3, 2019 3:28 PM
+do-what-it-says  @ Friday, May 3, 2019 3:28 PM
+spotify-this-song How Far I'll Go @ Friday, May 3, 2019 3:28 PM
